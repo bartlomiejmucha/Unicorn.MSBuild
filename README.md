@@ -21,10 +21,12 @@ You can also integrate it into your build pipeline.
 To add a new menu button, go to Visual Studio, click Tools and select External Tools.
 Add a new external tool with following parameters:
 
-* Title: `Sync Unicorn`,
+* Title: `Sync Unicorn`
 * Command: Path to msbuild.exe for example: `C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe`
 * Arguments: The same arguments you add in command line, but in the following example we stored url and secret in publish profile `$(ProjectFileName) /t:SyncUnicorn /p:PublishProfile=FileSystem`
 * Initial Directory: `$(ProjectDir)` 
+
+Now you can select your Webroot project in Solution Explorer and go to Tools->Sync Unicorn
 
 ## Build
 
