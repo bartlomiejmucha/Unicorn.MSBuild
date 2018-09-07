@@ -1,0 +1,9 @@
+<Project>
+  <UsingTask TaskName="Unicorn.MSBuild.Tasks.SyncUnicorn"
+             AssemblyFile="$(MSBuildThisFileDirectory)\..\tools\Unicorn.MSBuild.dll"
+  />
+
+  <Target Name="SyncUnicorn">
+    <SyncUnicorn ControlPanelUrl="$(UnicornControlPanelUrl)" SharedSecret="$(UnicornSharedSecret)" />
+  </Target>
+</Project>
