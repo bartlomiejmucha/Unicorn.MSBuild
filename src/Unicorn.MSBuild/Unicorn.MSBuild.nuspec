@@ -10,9 +10,9 @@
     <projectUrl>https://github.com/bartlomiejmucha/Unicorn.MSBuild</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Preview version of the package. SyncUnicorn target added for msbuild.</releaseNotes>
+    <releaseNotes>SyncUnicorn target added for msbuild.</releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>Unicorn MSBuild</tags>
+    <tags>Unicorn Sync MSBuild</tags>
     <developmentDependency>true</developmentDependency>
   </metadata>
   <files>
