@@ -24,7 +24,7 @@
                 var challenge = GetChallenge();
                 var signature = signatureService.CreateSignature(challenge, url, null);
 
-                return ExecuteUnicornSync(signature, url, challenge);
+                return ExecuteUnicornSync(signature, url, challenge) && !Log.HasLoggedErrors;
             }
 
             private bool ExecuteUnicornSync(SignatureResult signature, string url, string challenge)
