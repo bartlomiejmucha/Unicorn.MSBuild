@@ -28,6 +28,7 @@
   <!-- Additional files for the nupkg -->
   <ItemGroup>
     <None Update="Build\*.targets" Pack="true" PackagePath="build/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Build\readme.txt" Pack="true" PackagePath="%(Filename)%(Extension)" />
   </ItemGroup>
 
   <ItemGroup>
