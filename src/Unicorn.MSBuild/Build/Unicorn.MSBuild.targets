@@ -1,9 +1,16 @@
-<Project>
-  <UsingTask TaskName="Unicorn.MSBuild.Tasks.SyncUnicorn"
-             AssemblyFile="$(MSBuildThisFileDirectory)\..\tools\Unicorn.MSBuild.dll"
-  />
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <UnicornMSBuildTaskPath>$(MSBuildThisFileDirectory)..\tools\</UnicornMSBuildTaskPath>
+  </PropertyGroup>
+
+  <!--Main sync task-->
+  <UsingTask TaskName="SyncUnicorn" AssemblyFile="$(UnicornMSBuildTaskPath)Unicorn.MSBuild.dll"/>
 
   <Target Name="SyncUnicorn">
     <SyncUnicorn ControlPanelUrl="$(UnicornControlPanelUrl)" SharedSecret="$(UnicornSharedSecret)" />
   </Target>
+
 </Project>
