@@ -1,4 +1,7 @@
 # Unicorn.MSBuild
+
+[![NuGet](https://img.shields.io/nuget/v/Unicorn.MSBuild.svg)][1]
+
 The extension adds `SyncUnicorn` target to your project that can be used by MSBuild.
 
 ## Installation
