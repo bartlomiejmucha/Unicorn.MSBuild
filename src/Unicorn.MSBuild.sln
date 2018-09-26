@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicorn.MSBuild", "Unicorn.MSBuild\Unicorn.MSBuild.csproj", "{6701479F-EA8B-4A49-B740-FC8E070D4E7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unicorn.MSBuild", "Unicorn.MSBuild\Unicorn.MSBuild.csproj", "{6701479F-EA8B-4A49-B740-FC8E070D4E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicorn.MSBuild.Tests", "Unicorn.MSBuild.Tests\Unicorn.MSBuild.Tests.csproj", "{674AC789-3E44-4C89-88DE-C2D899B6D3C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6701479F-EA8B-4A49-B740-FC8E070D4E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6701479F-EA8B-4A49-B740-FC8E070D4E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6701479F-EA8B-4A49-B740-FC8E070D4E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674AC789-3E44-4C89-88DE-C2D899B6D3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674AC789-3E44-4C89-88DE-C2D899B6D3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674AC789-3E44-4C89-88DE-C2D899B6D3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674AC789-3E44-4C89-88DE-C2D899B6D3C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
