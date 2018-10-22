@@ -15,7 +15,7 @@ Add `<ProjectName>.wpp.targets` file to your project's directory with the follow
 ```xml
 <Project>
     <PropertyGroup>
-        <UnicornControlPanelUrl>https://habitat.sc/unicorn.aspxa</UnicornControlPanelUrl>
+        <UnicornControlPanelUrl>https://habitat.sc/unicorn.aspx</UnicornControlPanelUrl>
         <UnicornSharedSecret>zUcdjtAKn21fEXIqFnrSzUcdjtAKn21fEXIqFnrSzUcdjtAKn21fEXIqFnrS</UnicornSharedSecret>
     </PropertyGroup>
 </Project>
